@@ -49,10 +49,3 @@ Tracks all generated models with chain counts, residue totals, and warnings.
 ## Residue Limit Warning
 
 Models exceeding 3,000 total residues are flagged — AlphaFold performance degrades significantly above this threshold.
-
-## Deploy
-
-For lab-wide access, deploy to:
-- **shinyapps.io** (free tier works for small labs)
-- **Texas A&M Shiny Server** (if available)
-- **Any R server** with `shiny::runApp()`
